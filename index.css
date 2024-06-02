@@ -1,0 +1,24 @@
+.input-field{
+    border: 1px solid gray;
+    border-radius: 7px;
+    box-shadow: 2px 3px 9px;
+}
+.search-btn{
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+    width:100px;
+    
+}
+.items{
+    display: flex;
+    justify-content: center;
+    margin-top:50px;
+    gap:10px;
+    flex-wrap: wrap;
+}
+.singleItem{
+    cursor: pointer;
+}
